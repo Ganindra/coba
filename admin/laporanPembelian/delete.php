@@ -1,0 +1,1 @@
+<h1>Hapus Laporan Pembelian</h1>

@@ -1,0 +1,63 @@
+body {
+	padding: 50px;
+}
+.balok {
+	display: inline-block;
+	float: left;
+	border: 2px solid #333;
+}
+.b1 {
+	width: 300px; height: 600px;
+}
+.b2 {
+	padding: 0 25px;
+	width: 700px; height: 500px;
+	border-left-width: 0;
+}
+.header {
+	text-align: center;
+	height: auto;
+	float: left;
+}
+ul, li {
+	list-style:none;
+}
+.b1 > ul {
+	padding: 0 0 0 20px;
+}
+.b1 > ul > li {
+	font-size: 22px;
+}
+.b1 > ul > li > ul > li {
+	font-size: 15px;
+}
+a {
+	display: block;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+label span {
+	display: block;
+}
+label input,
+label textarea {
+	width: 50%;
+	box-sizing: border-box;
+}
+table, tr, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.page-nav a {
+	display: inline-block;
+}
+header {
+	width: 100%; height: 75px;
+	background: #212121;
+}
+img {
+	max-width: 100px;
+	max-height: 100px
+}

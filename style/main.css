@@ -1,0 +1,165 @@
+body {
+	margin: 0;
+	height: 100%;
+	background: #080808;
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	padding: 5%;
+}
+div > header {
+	width: 100%; height: 50px;
+	position: fixed;
+	background: #EEEEEE;
+	box-shadow: 0px 2px 5px black;
+	z-index: 999;
+}
+.container {
+	width: 90%; height: auto; min-height: 100%;
+	margin-bottom: 1%;
+	padding: 75px 5% 0;
+}
+.container:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.container > aside {
+	width: 34%; height: 500px;
+	background: #EEEEEE;
+	color: #aaa;
+	text-align: center;
+	padding-top: 20px;
+}
+.container > section {
+	width: 65%;
+	background: #EEEEEE;
+	margin: 0 1% 0 0;
+}
+.container > aside,
+.container > section {
+	float: left;
+}
+footer {
+	width: 100%; height: 75px;
+	background: #EEEEEE;
+}
+.slider {
+	width: 100%; height: 400px;
+	background: rgba(0,0,0,.25);
+}
+.main > article {
+	padding: 40px 0;
+	text-align: center;
+}
+.main > article:after {
+	content: '';
+	display: inline-block;
+	clear: both;
+}
+.main article article{
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	width: 160px;
+	padding: 2% 0.5% 6%;
+	margin: 0 1% 2%;
+	border: 3px solid #000;
+	transition: 5s;
+	-webkit-transition: 5s;
+}
+.main article article:focus .buy ,
+.main article article:hover .buy {
+	display: block;
+	opacity: 1;
+	bottom: 0;
+	transition: 5s all;
+	-webkit-transition: 5s all;
+}
+.main article img {	
+	max-width: 90%; max-height: 144px;
+}
+.main > article > a {
+	display: inline;
+	text-align: left;
+	background: black;
+	color: white;
+	padding: 10px;
+}
+.main article span {
+	display: block;
+	position: absolute;
+	top: 20px; left: 0;
+	padding: 5px 8px;
+	background: rgba(0,0,0,.9);
+	color: white;
+}
+.main a {
+	display: block;
+}
+.main .buy {
+	position: absolute;
+	bottom: 50px; left: 0;
+	width: 100%;
+	padding: 7.5px 0;
+	background: black;
+	text-align: center;
+	color: white;
+	display: none;
+	opacity: 0;
+	-webkit-transition: 5s;
+}
+table {
+	border-collapse: collapse;
+	margin: 30px auto;
+	text-align: center;
+	color: black;
+}
+td,th {
+	border: 1px solid black;
+}
+td {
+	padding: 5px;
+}
+th {
+	padding: 10px 20px;
+}
+.checkout {
+	position: fixed;
+	width: 100%; height: 80%;
+	padding: 10% 0;
+}
+.checkout > section{
+	min-height: 70%; width: 70%;
+	padding: 2%;
+	margin: auto;
+	position: relative;
+	background: #444;
+}
+.checkout a {
+	color: rgba(255,255,255,.5);
+}
+.checkout p,
+.checkout h4 {
+	margin: 0;
+}
+.checkout section section {
+	display: inline-block;
+	float: left;
+	padding: 10px 30px 10px 20px;
+	margin: 10px;
+	position: relative;
+	border: 2px solid black;
+}
+.checkout .x {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.kembali {
+	position: absolute;
+	color: black;
+	bottom: 5px; right: 5px;
+}
